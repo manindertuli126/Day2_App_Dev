@@ -12,6 +12,8 @@
 		9B7DB2AF222F3C7100343FD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7DB2AD222F3C7100343FD0 /* Main.storyboard */; };
 		9B7DB2B1222F3C7100343FD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7DB2B0222F3C7100343FD0 /* Assets.xcassets */; };
 		9B7DB2B4222F3C7100343FD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7DB2B2222F3C7100343FD0 /* LaunchScreen.storyboard */; };
+		9B7DB2BC222F4FF500343FD0 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7DB2BB222F4FF500343FD0 /* ImageViewController.swift */; };
+		9B7DB2BE222F512E00343FD0 /* gorilla.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7DB2BD222F512E00343FD0 /* gorilla.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9B7DB2B0222F3C7100343FD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B7DB2B3222F3C7100343FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B7DB2B5222F3C7100343FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B7DB2BB222F4FF500343FD0 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		9B7DB2BD222F512E00343FD0 /* gorilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorilla.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				9B7DB2AB222F3C7100343FD0 /* FirstViewController.swift */,
 				9B7DB2AD222F3C7100343FD0 /* Main.storyboard */,
 				9B7DB2B0222F3C7100343FD0 /* Assets.xcassets */,
+				9B7DB2BD222F512E00343FD0 /* gorilla.png */,
+				9B7DB2BB222F4FF500343FD0 /* ImageViewController.swift */,
 				9B7DB2B2222F3C7100343FD0 /* LaunchScreen.storyboard */,
 				9B7DB2B5222F3C7100343FD0 /* Info.plist */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7DB2BE222F512E00343FD0 /* gorilla.png in Resources */,
 				9B7DB2B4222F3C7100343FD0 /* LaunchScreen.storyboard in Resources */,
 				9B7DB2B1222F3C7100343FD0 /* Assets.xcassets in Resources */,
 				9B7DB2AF222F3C7100343FD0 /* Main.storyboard in Resources */,
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B7DB2AC222F3C7100343FD0 /* FirstViewController.swift in Sources */,
+				9B7DB2BC222F4FF500343FD0 /* ImageViewController.swift in Sources */,
 				9B7DB2AA222F3C7100343FD0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
