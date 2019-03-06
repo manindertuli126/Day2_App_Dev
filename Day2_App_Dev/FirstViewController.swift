@@ -45,5 +45,27 @@ class FirstViewController: UIViewController {
         alert.addAction(action3)
         self.present(alert, animated: true)
     }
+    @IBAction func inputAlert(_ sender: UIButton) {
+        let alert = UIAlertController(title: "What's your name?", message: nil, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        alert.addTextField(configurationHandler: { textField in
+            textField.placeholder = "Input your name here..."
+        })
+        alert.addTextField { (textField) in
+            textField.isSecureTextEntry = true
+            textField.placeholder = "Input your password here..."
+        }
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+            
+            if let name = alert.textFields?.first?.text {
+                print("Your name: \(name)")
+            }
+            if let name = alert.textFields?[1].text {
+                print("Your password: \(name)")
+            }
+        }))
+        
+        self.present(alert, animated: true)
+    }
 }
 
