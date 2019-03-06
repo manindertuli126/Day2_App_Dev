@@ -14,6 +14,7 @@
 		9B7DB2B4222F3C7100343FD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7DB2B2222F3C7100343FD0 /* LaunchScreen.storyboard */; };
 		9B7DB2BC222F4FF500343FD0 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7DB2BB222F4FF500343FD0 /* ImageViewController.swift */; };
 		9B7DB2BE222F512E00343FD0 /* gorilla.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7DB2BD222F512E00343FD0 /* gorilla.png */; };
+		9B7DB2C0222F606700343FD0 /* lionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7DB2BF222F606700343FD0 /* lionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9B7DB2B5222F3C7100343FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B7DB2BB222F4FF500343FD0 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		9B7DB2BD222F512E00343FD0 /* gorilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorilla.png; sourceTree = "<group>"; };
+		9B7DB2BF222F606700343FD0 /* lionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				9B7DB2BB222F4FF500343FD0 /* ImageViewController.swift */,
 				9B7DB2B2222F3C7100343FD0 /* LaunchScreen.storyboard */,
 				9B7DB2B5222F3C7100343FD0 /* Info.plist */,
+				9B7DB2BF222F606700343FD0 /* lionViewController.swift */,
 			);
 			path = Day2_App_Dev;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7DB2C0222F606700343FD0 /* lionViewController.swift in Sources */,
 				9B7DB2AC222F3C7100343FD0 /* FirstViewController.swift in Sources */,
 				9B7DB2BC222F4FF500343FD0 /* ImageViewController.swift in Sources */,
 				9B7DB2AA222F3C7100343FD0 /* AppDelegate.swift in Sources */,

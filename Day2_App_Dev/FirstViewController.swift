@@ -67,5 +67,10 @@ class FirstViewController: UIViewController {
         
         self.present(alert, animated: true)
     }
+    @IBAction func nextScreen2(_ sender: UIButton) {
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let lionvc = sb.instantiateViewController(withIdentifier: "lionVC") as! lionViewController
+        self.present(lionvc, animated: true)
+    }
 }
 
